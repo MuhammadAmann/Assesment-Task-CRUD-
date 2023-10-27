@@ -180,7 +180,6 @@ class _List_ScreenState extends State<List_Screen> {
                               subtitle: subtitleController.text,
                             ))
                                 .then((value) {
-                              print("Data added");
                               setState(() {
                                 listdata = db_helper!.getListdata();
                                 if (_formkey.currentState!.validate()) {
